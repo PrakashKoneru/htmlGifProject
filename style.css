@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e0e0e;
+  height: 100vh;
+}
+
+.gifBox {
+  padding: 20px 10px;
+  width: 300px;
+  font-family: Poppins, sans-serif;
+  color: white;
+  background-color: #001050;
+  text-align: center;
+}
+
+.logoContainer {
+  margin: 10px 0;
+}
+
+.tagline {
+  font-size: 18px;
+  font-weight: bold;
+  max-width: 90%;
+  margin: auto;
+}
+
+#dynamicTextTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 10px;
+  max-width: 83%;
+}
+
+#dynamicTextDescription {
+  font-size: 12px;
+  font-weight: 100;
+  margin: auto;
+  max-width: 83%;
+}
+
